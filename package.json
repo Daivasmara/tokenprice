@@ -1,10 +1,10 @@
 {
-  "name": "@daivasmara/cryptoprice",
+  "name": "tokenprice",
   "version": "1.0.0",
   "description": "CLI command to show prices of crypto tokens",
   "main": "index.js",
   "bin": {
-    "cryptoprice": "index.js"
+    "tokenprice": "index.js"
   },
   "_moduleAliases": {
     "@root": ".",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daivasmara/cryptoprice.git"
+    "url": "git+https://github.com/Daivasmara/tokenprice.git"
   },
   "keywords": [
     "price",
@@ -31,9 +31,9 @@
   "author": "Muhammad Daivasmara Denaw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Daivasmara/cryptoprice/issues"
+    "url": "https://github.com/Daivasmara/tokenprice/issues"
   },
-  "homepage": "https://github.com/Daivasmara/cryptoprice#readme",
+  "homepage": "https://github.com/Daivasmara/tokenprice#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",

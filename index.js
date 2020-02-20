@@ -5,8 +5,8 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const colors = require('colors/safe');
 const argv = require('@lib/argv');
-const { BASE_URL, README_URL } = require('@helpers/endpoints');
-const { CRYPTOPRICE, COMMANDS: { STORE_API_KEY, FETCH } } = require('@utils/constants');
+const { BASE_URL } = require('@helpers/endpoints');
+const { TOKENPRICE, COMMANDS: { STORE_API_KEY, FETCH } } = require('@utils/constants');
 
 const { env: { API_KEY } } = process;
 
@@ -28,7 +28,7 @@ if (argv._[0] === FETCH) {
     console.log(`
       ${colors.red('ERROR')}: You need to store API key in your local machine .env in order to fetch token prices.
 
-      For more info on this: ${colors.black.bgWhite(` ${CRYPTOPRICE} --help `)}
+      For more info on this: ${colors.black.bgWhite(` ${TOKENPRICE} --help `)}
     `);
     process.exit(1);
   }
@@ -56,6 +56,6 @@ if (argv._[0] === FETCH) {
 
       ${err.message}
 
-      For more info on this: ${colors.black.bgWhite(` ${CRYPTOPRICE} --help `)}
+      For more info on this: ${colors.black.bgWhite(` ${TOKENPRICE} --help `)}
     `));
 }

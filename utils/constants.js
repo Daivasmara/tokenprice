@@ -1,4 +1,4 @@
-const CRYPTOPRICE = 'cryptoprice';
+const TOKENPRICE = 'tokenprice';
 
 const COMMANDS = {
   STORE_API_KEY: 'store-api-key',
@@ -6,6 +6,6 @@ const COMMANDS = {
 };
 
 module.exports = {
-  CRYPTOPRICE,
+  TOKENPRICE,
   COMMANDS,
 };
