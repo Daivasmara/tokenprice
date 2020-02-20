@@ -53,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+![tokenprice](https://i.imgur.com/HCq1bPb.gif)
 
 **tokenprice** is a simple CLI tool to fetch the latest multiple crypto token prices in various currencies. All the [Crypto Market Cap & Pricing Data Provided By Nomics](https://nomics.com), therefore to use this tool you need to sign up first to get the API key, which I guarantee you, it will only take you about 2 mins, _even much less!_
 
