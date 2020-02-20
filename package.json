@@ -1,5 +1,5 @@
 {
-  "name": "cryptoprice",
+  "name": "@daivasmara/cryptoprice",
   "version": "1.0.0",
   "description": "CLI command to show prices of crypto tokens",
   "main": "index.js",
