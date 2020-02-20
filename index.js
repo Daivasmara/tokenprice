@@ -15,7 +15,7 @@ if (argv._[0] === STORE_API_KEY) {
     fs.writeFile('.env', `API_KEY=${argv.key}`, (err) => {
       if (err) throw err;
       console.log(`
-        ${colors.green('SUCCESS')}: API key is now successfully stored on you local machine .env.
+        ${colors.green('SUCCESS')}: API key is now successfully stored on your local machine .env.
       `);
     });
   } catch (err) {
@@ -52,7 +52,7 @@ if (argv._[0] === FETCH) {
       }
     })
     .catch((err) => console.log(`
-      ${colors.red('ERROR')}: Failed to fetch price(s). Please check the API key you used. 
+      ${colors.red('ERROR')}: Failed to fetch price(s). 
 
       ${err.message}
 
