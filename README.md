@@ -17,7 +17,7 @@
   <h3 align="center">TOKENPRICE</h3>
 
   <p align="center">
-    Simple CLI tool to fetch the latest multiple crypto token prices.
+    Simple CLI app to fetch the latest multiple crypto token prices.
     <br />
     <br />
     <a href="https://github.com/daivasmara/tokenprice#readme"><strong>Explore the docs »</strong></a>
@@ -55,7 +55,7 @@
 
 ![tokenprice](https://i.imgur.com/HCq1bPb.gif)
 
-**tokenprice** is a simple CLI tool to fetch the latest multiple crypto token prices in various currencies. All the [Crypto Market Cap & Pricing Data Provided By Nomics](https://nomics.com), therefore to use this tool you need to sign up first to get the API key, which I guarantee you, it will only take you about 2 mins, _even much less!_
+**tokenprice** is a simple CLI app to fetch the latest multiple crypto token prices in various currencies, all from the comfort of your terminal. All the [Crypto Market Cap & Pricing Data Provided By Nomics](https://nomics.com), therefore to use this tool you need to sign up first to get the API key, which I guarantee you, it will only take you about 2 mins, _even much less!_
 
 [**Sign up here!**](https://p.nomics.com/pricing#free-plan)
 
