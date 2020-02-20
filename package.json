@@ -1,0 +1,49 @@
+{
+  "name": "cryptoprice",
+  "version": "1.0.0",
+  "description": "CLI command to show prices of crypto tokens",
+  "main": "index.js",
+  "bin": {
+    "cryptoprice": "index.js"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@lib": "lib",
+    "@helpers": "helpers",
+    "@utils": "utils"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daivasmara/cryptoprice.git"
+  },
+  "keywords": [
+    "price",
+    "crypto",
+    "tokens",
+    "bitcoin",
+    "btc",
+    "ethereum",
+    "eth"
+  ],
+  "author": "Muhammad Daivasmara Denaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daivasmara/cryptoprice/issues"
+  },
+  "homepage": "https://github.com/Daivasmara/cryptoprice#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "module-alias": "^2.2.2",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
