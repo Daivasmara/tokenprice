@@ -162,7 +162,7 @@ Project Link: [https://github.com/daivasmara/tokenprice](https://github.com/daiv
 [issues-shield]: https://img.shields.io/github/issues/daivasmara/tokenprice.svg?style=flat-square
 [issues-url]: https://github.com/daivasmara/tokenprice/issues
 [license-shield]: https://img.shields.io/github/license/daivasmara/tokenprice.svg?style=flat-square
-[license-url]: https://github.com/daivasmara/tokenprice/blob/master/LICENSE.txt
+[license-url]: https://github.com/daivasmara/tokenprice/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/daivasmara
 [product-screenshot]: images/screenshot.png
