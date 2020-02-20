@@ -1,7 +1,7 @@
 {
   "name": "tokenprice",
   "version": "1.1.0",
-  "description": "CLI command to show prices of crypto tokens",
+  "description": "Simple CLI app to fetch the latest multiple crypto token prices in various currencies",
   "main": "index.js",
   "bin": {
     "tokenprice": "index.js"
@@ -22,11 +22,16 @@
   "keywords": [
     "price",
     "crypto",
-    "tokens",
+    "token",
+    "exchange",
+    "cli",
+    "terminal",
     "bitcoin",
     "btc",
     "ethereum",
-    "eth"
+    "eth",
+    "digix",
+    "dgx"
   ],
   "author": "Muhammad Daivasmara Denaw",
   "license": "MIT",
