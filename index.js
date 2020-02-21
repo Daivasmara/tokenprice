@@ -12,7 +12,7 @@ const { env: { API_KEY } } = process;
 
 if (argv._[0] === STORE_API_KEY) {
   try {
-    fs.writeFile('.env', `API_KEY=${argv.key}`, (err) => {
+    fs.writeFile(`${__dirname}/.env`, `API_KEY=${argv.key}`, (err) => {
       if (err) throw err;
       console.log(`
         ${colors.green('SUCCESS')}: API key is now successfully stored on your local machine .env.
