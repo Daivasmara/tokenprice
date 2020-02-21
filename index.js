@@ -10,7 +10,16 @@ const { TOKENPRICE, COMMANDS: { STORE_API_KEY, FETCH } } = require('@utils/const
 if (argv._[0] === STORE_API_KEY) {
   try {
     fs.writeFile(`${__dirname}/api_key`, argv.key, (err) => {
-      if (err) throw err;
+      if (err) {
+        console.log(`
+          ${colors.red('ERROR')}: Permission denied, you need to use sudo.
+
+          ${colors.black.bgWhite(` sudo ${TOKENPRICE} ${STORE_API_KEY} [key] `)}
+
+          For more info on this: ${colors.black.bgWhite(` ${TOKENPRICE} --help `)}
+        `);
+        process.exit(1);
+      }
       console.log(`
         ${colors.green('SUCCESS')}: API key is now successfully stored on your local machine.
       `);
