@@ -113,7 +113,7 @@ You can fetch any amout of crypto token prices at once. Here's an example of fet
 tokenprice fetch -t btc eth dgx -c idr
 ```
 
-By default if you don't specify `-t` and `-c` flag, it'll fetch `BTC`, `ETH`, and `DGX` in `USD`
+By default if you don't specify `-t` and `-c` flag, it'll fetch `BTC` and `ETH` in `USD`
 ```sh
 tokenprice fetch
 ```
