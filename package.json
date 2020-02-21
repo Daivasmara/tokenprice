@@ -41,7 +41,6 @@
   "homepage": "https://github.com/Daivasmara/tokenprice#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "dotenv": "^8.2.0",
     "module-alias": "^2.2.2",
     "node-fetch": "^2.6.0",
     "yargs": "^15.1.0"

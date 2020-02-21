@@ -91,10 +91,13 @@ In order to fetch from [Nomics](https://nomics.com) API, you need to get your ow
 Now copy your API key, and do:
 ```sh
 tokenprice store-api-key <YOUR_API_KEY>
+
+// sudo if needed
+tokenprice store-api-key <YOUR_API_KEY>
 ```
 If success you'll get:
 ```sh
-SUCCESS: API key is now successfully stored on your local machine .env.
+SUCCESS: API key is now successfully stored on your local machine.
 ```
 
 **CONGRATULATIONS!** now you can fetch the latest multiple crypto token prices anytime you want with no rate limit.
