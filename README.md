@@ -93,7 +93,7 @@ Now copy your API key, and do:
 tokenprice store-api-key <YOUR_API_KEY>
 
 // sudo if needed
-tokenprice store-api-key <YOUR_API_KEY>
+sudo tokenprice store-api-key <YOUR_API_KEY>
 ```
 If success you'll get:
 ```sh

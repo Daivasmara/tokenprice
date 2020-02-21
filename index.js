@@ -16,14 +16,25 @@ if (argv._[0] === STORE_API_KEY) {
       `);
     });
   } catch (err) {
-    console.log(`${colors.red('ERROR')}: ${err.message}`);
+    console.log(`
+      ${colors.red('ERROR')}: ${err.message}
+    
+      For more info on this: ${colors.black.bgWhite(` ${TOKENPRICE} --help `)}
+    `);
   }
 }
 
 if (argv._[0] === FETCH) {
   try {
     fs.readFile(`${__dirname}/api_key`, 'utf8', (err, API_KEY) => {
-      if (err) throw err;
+      if (err) {
+        console.log(`
+          ${colors.red('ERROR')}: You need to store API key in your local machine in order to fetch token prices.
+
+          For more info on this: ${colors.black.bgWhite(` ${TOKENPRICE} --help `)}
+        `);
+        process.exit(1);
+      }
 
       const ids = argv.t.join(',').toUpperCase();
       const curr = argv.c.toUpperCase();
@@ -53,10 +64,9 @@ if (argv._[0] === FETCH) {
     });
   } catch (err) {
     console.log(`
-      ${colors.red('ERROR')}: You need to store API key in your local machine in order to fetch token prices.
+      ${colors.red('ERROR')}: ${err.message}
 
       For more info on this: ${colors.black.bgWhite(` ${TOKENPRICE} --help `)}
     `);
-    process.exit(1);
   }
 }
