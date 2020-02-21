@@ -22,7 +22,7 @@ if (argv._[0] === STORE_API_KEY) {
 
 if (argv._[0] === FETCH) {
   try {
-    fs.readFile('api_key', 'utf8', (err, API_KEY) => {
+    fs.readFile(`${__dirname}/api_key`, 'utf8', (err, API_KEY) => {
       if (err) throw err;
 
       const ids = argv.t.join(',').toUpperCase();
