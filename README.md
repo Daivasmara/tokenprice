@@ -17,7 +17,7 @@
   <h3 align="center">TOKENPRICE</h3>
 
   <p align="center">
-    Simple CLI app to fetch the latest multiple crypto token prices.
+    Simple CLI tool to fetch the latest multiple crypto token prices.
     <br />
     <br />
     <a href="https://github.com/daivasmara/tokenprice#readme"><strong>Explore the docs »</strong></a>
@@ -55,11 +55,11 @@
 
 ![tokenprice](https://i.imgur.com/HCq1bPb.gif)
 
-**tokenprice** is a simple CLI app to fetch the latest multiple crypto token prices in various currencies, all from the comfort of your terminal. All the [Crypto Market Cap & Pricing Data Provided By Nomics](https://nomics.com), therefore to use this tool you need to sign up first to get the API key, which I guarantee you, it will only take you about 2 mins, _even much less!_
+**tokenprice** is a simple CLI tool to fetch the latest multiple crypto token prices in various currencies, all from the comfort of your terminal. [Crypto Market Cap & Pricing Data Provided By Nomics](https://nomics.com), therefore to use this tool you need to sign up first to get the API key, which I guarantee you, it will only take you about 2 mins, _even much less!_
 
 [**Sign up here!**](https://p.nomics.com/pricing#free-plan)
 
-Basically the main idea is coming from my own _FOMO (Fear of Missing Out)_ towards cryptos. You see, as an avid observer of cryptos especially `BTC` and `ETH` (at least in the moment I'm writing this). I find visiting exchange sites just to know what's the current price of some tokens is way too much of a hassle and could be much more simplified. It should be just something that I could do while I'm doing something else especially while I'm working I basically stare at the black void that is my terminal anyway. Thus why **tokenprice** is now here with us.
+Basically the main idea is coming from my own _FOMO (Fear of Missing Out)_ towards cryptos. You see, as an avid observer of cryptos especially `BTC` and `ETH` (at least in the moment I'm writing this). I find visiting exchange sites just to know what's the current price of some tokens is way too much of a hassle and could be much more simplified. It should be just something that I could do while I'm doing something else, especially while I'm working I basically stare at the black void that is my terminal anyway. Thus why **tokenprice** is now here with us.
 
 ### Built With
 
@@ -77,7 +77,7 @@ To get one running in your local you need to:
 npm install -g tokenprice
 ```
 
-### Commands
+### Available Commands
  
 ```sh
 tokenprice [-v | --version] [-h | --help]
@@ -85,8 +85,8 @@ tokenprice store-api-key [key]
 tokenprice fetch [-t <args>] [-c <args>]
 ```
 
-### Set Up API key
-In order to fetch from [Nomics](https://nomics.com) API, you need to get your own API key first, which could easily be done by following this [instructions](https://p.nomics.com/pricing#free-plan), just input some forms and you'll receive an email with your API key. _Yay!_
+### Setting Up API key
+In order for this app to be able to fetch from [Nomics](https://nomics.com) API, you need to get your own API key first, which could easily be done by following this [instructions](https://p.nomics.com/pricing#free-plan), just input some forms and you'll soon receive an email with your API key. _Yay!_
 
 Now copy your API key, and do:
 ```sh
@@ -108,12 +108,12 @@ SUCCESS: API key is now successfully stored on your local machine.
 tokenprice fetch [-t | --tokens <args>] [-c | --currency <args>]
 ```
 
-You can fetch any amout of crypto token prices at once. Here's an example of fetching price of `BTC`, `ETH`, and `DGX` in `IDR` currency:
+You can fetch any amout of crypto token prices at once. Here's an example of fetching prices of `BTC`, `ETH`, and `DGX` in `IDR` currency:
 ```sh
 tokenprice fetch -t btc eth dgx -c idr
 ```
 
-By default if you don't specify `-t` and `-c` flag, it'll fetch `BTC` and `ETH` in `USD`
+By default if you don't explicitly specify `-t` and `-c` flag, it'll fetch `BTC` and `ETH` in `USD`
 ```sh
 tokenprice fetch
 ```
@@ -168,4 +168,3 @@ Project Link: [https://github.com/daivasmara/tokenprice](https://github.com/daiv
 [license-url]: https://github.com/daivasmara/tokenprice/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/daivasmara
-[product-screenshot]: images/screenshot.png
